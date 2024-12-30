@@ -16,7 +16,7 @@ Uses the [Satellite Wildfire Detection Dataset](https://universe.roboflow.com/ht
 opencv-python
 matplotlib
 scipy
-pillow```
+pillow
 
 ## Installation
 # Clone repository
