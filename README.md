@@ -12,23 +12,31 @@ This project implements wildfire detection by analyzing satellite images through
 Uses the [Satellite Wildfire Detection Dataset](https://universe.roboflow.com/htw-berlin-xv7eo/satellite-wildfire-detection) from Roboflow.
 
 ## Requirements
-numpy opencv-python matplotlib scipy pillow
+```
+python
 numpy
 opencv-python
 matplotlib
 scipy
 pillow
+```
 
 ## Installation
+```
 # Clone repository
 git clone https://github.com/yourusername/Wildfire-Detection-Using-Divide_and_Conquer.git
 # Install dependencies
 pip install -r requirements.txt
+```
 
 ## Usage
 1. Run the application:
-2. Click "Pilih Gambar" to select an image
-3. View detection results and analysis
+   ```
+   python app.py
+    ```
+   
+3. Click "Pilih Gambar" to select an image
+4. View detection results and analysis
 
 ## Features
 * Fire and smoke detection
@@ -45,7 +53,9 @@ pip install -r requirements.txt
 * Confidence scoring based on color and texture
 
 ## Project Structure
+ ```
 app.py          # Main application code
 ├── FireZone    # Data class for detected zones
 ├── ForestFireDetector  # Core detection algorithm
 └── FireDetectionApp    # GUI interface
+ ```
