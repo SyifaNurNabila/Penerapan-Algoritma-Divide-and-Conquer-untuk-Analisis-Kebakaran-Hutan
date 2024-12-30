@@ -12,11 +12,11 @@ This project implements wildfire detection by analyzing satellite images through
 Uses the [Satellite Wildfire Detection Dataset](https://universe.roboflow.com/htw-berlin-xv7eo/satellite-wildfire-detection) from Roboflow.
 
 ## Requirements
-numpy
+```numpy
 opencv-python
 matplotlib
 scipy
-pillow
+pillow```
 
 ## Installation
 # Clone repository
